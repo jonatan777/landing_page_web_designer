@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Web Designer</title>
+
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ====  REMIXICON CDN ==== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0"/>
+  </head>
+  
+  <body>
+  
+  
+  
+  
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+      <!-- ==== NAVBAR ==== -->
+      <nav class="nav">
+        <div class="logo">
+          <h2>Web Designer</h2>
+        </div>
+
+        <div class="nav_menu" id="nav_menu">
+
+          <button class="close_btn" id="close_btn">
+            <i class="ri-close-fill"></i>
+          </button>
+
+          <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+              <p class="nav_menu_link">Design</p>
+            </li>
+            <li class="nav_menu_item">
+              <p class="nav_menu_link">construção</p>
+            </li>
+            <li class="nav_menu_item">
+              <p class="nav_menu_link">Manutenção</p>
+            </li>
+          </ul>
+
+        </div>
+
+        <button class="toggle_btn" id="toggle_btn">
+          <!--- <i class="ri-menu-line"></i> ----->
+        </button>
+      </nav>
+  </header>
+
+    <section class="wrapper">
+      <div class="container">
+        <div class="grid-cols-2">
+          <div class="grid-item-1">
+            <h1 class="main-heading">
+              Seu negócio na web a um <span>Click</span>
+              de distância.
+            </h1>
+            <p class="info-text">
+              Aumente seus negócios com a criação de uma pagina web. 
+            </p>
+
+            <div class="btn_wrapper">
+              <button class="btn view_more_btn">
+                <a href="http://181.215.135.83:8084/">click <i class="ri-arrow-right-line"></i></a>
+              </button>
+
+            </div>
+          </div>
+          <div class="grid-item-2">
+            <div class="team_img_wrapper">
+              <img src="./img/responsive.png" alt="team-img"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper" id="1">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="grid-cols-3">
+
+         
+
+          <div class="grid-col-item">
+            <div class="icon">
+           
+              <i id="icone_compasso" style='font-size:32px' class="ri-compasses-2-line"></i>
+
+            </div>
+            <div class="featured_info">
+              <span>Design</span>
+              <p>
+               Uma pagina web precisar ter uma boa
+               apresentação visual que seja atrativa aos usuários.
+               
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Contrução</span>
+              <p>
+                Levantamento e análise de requisitos,
+                implementação
+                 e testes
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-col-item">
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+            </div>
+            <div class="featured_info">
+              <span>Manutenção</span>
+              <p>
+                Implatação, Manutenção e Atualização
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+  </body>
+</html>
